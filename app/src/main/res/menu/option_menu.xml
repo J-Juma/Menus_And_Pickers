@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/option_order"
+        android:orderInCategory="10"
+        android:title="Order"
+        app:showAsAction="always"
+        android:id="@+id/item_order"
+
+        />
+    <item android:title="Status"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:icon="@drawable/option_info"
+        android:id="@+id/item_status"
+        />
+    <item android:title="Favorites"
+        android:icon="@drawable/option_favorite"
+        android:orderInCategory="30"
+        app:showAsAction="ifRoom"
+        android:id="@+id/item_favorites"
+        />
+
+    <item android:title="Contact"
+        app:showAsAction="never"
+        android:orderInCategory="40"
+        android:id="@+id/item_contact"
+        />
+</menu>
